@@ -1,4 +1,4 @@
-# GRMod, an enhancement package for CS:GO.
+# BetterOffensive
 
 ![Platform](https://img.shields.io/badge/platform--555555?style=for-the-badge)![Windows](https://img.shields.io/badge/-windows-0078D6?style=for-the-badge)![Linux](https://img.shields.io/badge/-linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Release](https://img.shields.io/github/v/release/itsIlluMinAty/GRMod?style=for-the-badge)
