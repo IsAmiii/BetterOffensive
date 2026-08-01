@@ -1,12 +1,12 @@
 'use strict';
 
 var NewsPanel = (function () {
-	var NEWS_FEED_URL = 'https://raw.githubusercontent.com/itsIlluMinAty/GRMod/main/news.json';
+	var NEWS_FEED_URL = 'https://raw.githubusercontent.com/itsIlluMinAty/BetterOffensive/main/news.json';
 	var _isUsingFallbackFeed = false;
 
 	var _RequestFallbackFeed = function()
 	{
-		_isUsingFallbackFeed = true;
+		_isUsingFallbackFeed = false;
 		BlogAPI.RequestRSSFeed();
 	}
 
