@@ -2,7 +2,6 @@
 
 ![Platform](https://img.shields.io/badge/platform--555555?style=for-the-badge)![Windows](https://img.shields.io/badge/-windows-0078D6?style=for-the-badge)![Linux](https://img.shields.io/badge/-linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Release](https://img.shields.io/github/v/release/itsIlluMinAty/GRMod?style=for-the-badge)
-![Downloads](https://img.shields.io/github/downloads/itsIlluMinAty/GRMod/total?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/itsIlluMinAty/GRMod?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/itsIlluMinAty/GRMod?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/itsIlluMinAty/GRMod?style=for-the-badge)
