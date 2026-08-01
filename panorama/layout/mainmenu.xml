@@ -161,7 +161,7 @@
 						</Button>
 						                                                      
 						<Button id="MainMenuNavBarShowCommunityServerBrowser"
-									class="mainmenu-navbar__btn-small MainMenuModeOnly"
+									class="mainmenu-navbar__btn-small"
 									group="NavBar" 
 									onactivate="GameInterfaceAPI.ConsoleCommand( 'gamemenucommand openserverbrowser' )"
 									oncontextmenu="GameInterfaceAPI.ConsoleCommand( 'gamemenucommand openserverbrowser' )"
