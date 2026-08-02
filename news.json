@@ -55,55 +55,6 @@
       "description": "The first CS:GO Major in Brazil. Live audiences from start to finish. The IEM Rio Major starts October 31st, are you ready? The IEM Rio Major is fast approaching, and you can show your support&#8211;team stickers, player autographs, and the Rio 2022 Viewer Pass are all available for purchase now! 50% of the proceeds go to the players, teams, and organizations taking part in the Major.",
       "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/rio2022/coins_and_pass.png",
       "link": "https://blog.counter-strike.net/?p=39947"
-    },
-    {
-      "title": "Majors and Music",
-      "date": "2022-09-13",
-      "description": "While we gear up for an incredible Major in Rio, we're also looking ahead to next year's events. Hosted by BLAST, CS:GO's first Major of 2023 will take place in Paris, France. Buckle up, and blast off to the BLAST.TV Major! Celebrate the 5th anniversary of CS:GO's release in China!",
-      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/blast_announcement.png",
-      "link": "https://blog.counter-strike.net/?p=39578"
-    },
-    {
-      "title": "The Sound of Music Kits",
-      "date": "2022-08-24",
-      "description": "Today we are excited to ship the Initiators Music Kit Box, featuring music kits from 3kliksphilip, Humanity's Last Breath, Juelz, Knock2, Meechy Darko, and Sullivan King. Whether you're a fan of dance music, hip-hop, rock, or CS:GO content creators, there's a music kit for everyone. The Initiators Music Kit Box is now available for purchase.",
-      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/initiators_final.png",
-      "link": "https://blog.counter-strike.net/?p=39324"
-    },
-    {
-      "title": "Happy Birthday CS:GO!",
-      "date": "2022-08-16",
-      "description": "It's CS:GO's 10th birthday, and we&#8217;re celebrating with stickers, maps, and cupcakes! 10 Year Birthday Sticker Capsule The community pulled together for the 10th anniversary sticker competition, and the results speak for themselves–the 10 Year Birthday Sticker Capsule contains over 60 community submitted designs, including an all new animated ‘Lenticular’ quality. Congratulations to the winners!",
-      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/cupcake.png",
-      "link": "https://blog.counter-strike.net/?p=39209"
-    },
-    {
-      "title": "Matchmaking Update",
-      "date": "2022-08-01",
-      "description": "Competitive Skill Groups are undergoing some recalibration. Typically when we ship changes to CS:GO's matchmaking system, the adjustments are small enough that we don't include them in our release notes. However, today's update affects all CS:GO players so it requires some explanation.",
-      "imageUrl": "https://steamcdn-a.akamaihd.net/apps/csgo/blog/images/wallpaper_nologo.jpg",
-      "link": "https://blog.counter-strike.net/?p=39096"
-    },
-    {
-      "title": "A New Cassssssse",
-      "date": "2022-07-01",
-      "description": "Today we are excited to ship the Recoil Case, featuring 17 weapon finishes from community artists and including the Broken Fang Case Gloves as rare special items! The Recoil Case is dropping in-game now!",
-      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/recoil/recoil_00.png",
-      "link": "https://blog.counter-strike.net/?p=38840"
-    },
-    {
-      "title": "PGL Antwerp 2022 Champions!",
-      "date": "2022-05-24",
-      "description": "This weekend, thousands of screaming fans in Antwerp and millions of viewers around the world witnessed the crowning of a new Major Champion. Congratulations to FaZe Clan who proved to be an unstoppable force, taking the Grand Final 2-0. Today we're releasing the champions autograph capsule, featuring autograph stickers in paper, glitter, holo, and gold.",
-      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/antwerp2022_champions_stickers.png",
-      "link": "https://blog.counter-strike.net/?p=38300"
-    },
-    {
-      "title": "The stage is set in Antwerp",
-      "date": "2022-05-18",
-      "description": "The Legends stage was a brutal test, but eight teams survived and earned their place on the main stage. Congratulations to Team Spirit, ENCE, Copenhagen Flames, FaZe, FURIA, Heroic, Natus Vincere, and Ninjas in Pyjamas. They&#8217;ll play out the rest of this event in front of the roaring crowds in Antwerp. Best of luck to all!",
-      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/antwerp2022_champions_day1v3.png",
-      "link": "https://blog.counter-strike.net/?p=38246"
     }
   ]
 }
