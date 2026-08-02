@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "title": "The Anubis Collection",
+      "date": "2023-04-25",
+      "description": "Since November, players have been peeking mid and rushing through the waters of Anubis. Today we're introducing the Anubis Collection, featuring 19 weapon finishes themed around the newest addition to Counter-Strike's Active Duty map pool. The Anubis Collection is available for purchase now in-game.",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/3381077/fd18c8adb36e6741b8729c4d6ffbb05cba467aa0.png",
+      "link": "https://blog.counter-strike.net/?p=41365"
+    },
+    {
+      "title": "Case, Capsule, Kit, Oh My!",
+      "date": "2023-02-10",
+      "description": "Today we're excited to ship the Revolution Case, featuring 17 weapon finishes from community artists and the gloves from the Clutch Case as rare special items. We're also shipping the Espionage Sticker Capsule, with 21 unique stickers from Steam Workshop artists. Finally, we're also shipping the Denzel Curry ULTIMATE music kit, featuring Denzel's hits “Walkin”, “ULTIMATE”, and more from his 2022 album “Melt My Eyez See Your Future”.",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/revolution_case_update/denzel_revolution_espionage_new.png",
+      "link": "https://blog.counter-strike.net/?p=41047"
+    },
+    {
+      "title": "At Your Service",
+      "date": "2022-12-13",
+      "description": "All ranked-up and ready to go? The all-new 2023 Service Medal will be available starting January 1st! Earn XP by playing in official game modes and rank up your CS:GO Profile. When you reach the Global General (Rank 40), you'll have the option to reset your Profile Rank and earn (or upgrade) a 2023 Service Medal",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/service_medal_2023.png",
+      "link": "https://blog.counter-strike.net/?p=40596"
+    },
+    {
+      "title": "Anu Map Who Bis",
+      "date": "2022-11-18",
+      "description": "Today's update includes an adjustment to the Active Duty map pool as well as some weapon adjustments. For starters, we're making changes to the Active Duty map pool, which will determine which maps get played at the 2023 Paris Major. Anubis is being added to Active Duty and Dust II is being removed. But both maps are still available in Casual, Deathmatch, and Competitive modes.",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/anubis_map.jpg",
+      "link": "https://blog.counter-strike.net/?p=40368"
+    },
+    {
+      "title": "The Complete Collection",
+      "date": "2022-10-27",
+      "description": "Today's update includes several quality-of-life improvements for storage units, and a bunch of visual adjustments to Rio 2022 team and player stickers. Check them out and let us know what you think! Looking for an easy way to complete your sticker collection while supporting all of the teams and players? Rio 2022 Storage Units are now available.",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/rio2022/iem_caskets.png",
+      "link": "https://blog.counter-strike.net/?p=39982"
+    },
+    {
+      "title": "The Sound of Music Kits",
+      "date": "2022-08-24",
+      "description": "Today we are excited to ship the Initiators Music Kit Box, featuring music kits from 3kliksphilip, Humanity's Last Breath, Juelz, Knock2, Meechy Darko, and Sullivan King. Whether you're a fan of dance music, hip-hop, rock, or CS:GO content creators, there's a music kit for everyone. The Initiators Music Kit Box is now available for purchase.",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/initiators_final.png",
+      "link": "https://blog.counter-strike.net/?p=39324"
+    },
+    {
+      "title": "Happy Birthday CS:GO!",
+      "date": "2022-08-16",
+      "description": "It's CS:GO's 10th birthday, and we&#8217;re celebrating with stickers, maps, and cupcakes! 10 Year Birthday Sticker Capsule The community pulled together for the 10th anniversary sticker competition, and the results speak for themselves–the 10 Year Birthday Sticker Capsule contains over 60 community submitted designs, including an all new animated ‘Lenticular’ quality. Congratulations to the winners!",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/cupcake.png",
+      "link": "https://blog.counter-strike.net/?p=39209"
+    },
+    {
+      "title": "A New Cassssssse",
+      "date": "2022-07-01",
+      "description": "Today we are excited to ship the Recoil Case, featuring 17 weapon finishes from community artists and including the Broken Fang Case Gloves as rare special items! The Recoil Case is dropping in-game now!",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/recoil/recoil_00.png",
+      "link": "https://blog.counter-strike.net/?p=38840"
+    },
+  ]
+}
