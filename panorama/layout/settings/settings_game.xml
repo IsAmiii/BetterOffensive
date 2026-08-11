@@ -626,17 +626,17 @@
 					
 					</Panel>
 
-					 <TooltipPanel class="SettingsMenuDropdownContainer" tooltip="#SFUI_ToolTip_Settings_DominantHand">                   
-						<Label text="#SFUI_Settings_DominantHand" class="half-width"/>
+					 <TooltipPanel class="SettingsMenuDropdownContainer" tooltip="#Panorama_ToolTip_Settings_DominantHand">                   
+						<Label text="#Panorama_Settings_DominantHand" class="half-width"/>
 						<CSGOSettingsEnumDropDown class="PopupButton" convar="cl_righthand">
-								<Label text="#SFUI_Right" value="1" id="righthand"/>
-								<Label text="#SFUI_Left" value="0" id="lefthand"/>
+								<Label text="#Panorama_Right" value="1" id="righthand"/>
+								<Label text="#Panorama_Left" value="0" id="lefthand"/>
 						</CSGOSettingsEnumDropDown>
 						
 					</TooltipPanel>
 					<Panel class="horizontal-separator"/>
 					
-					   <TooltipPanel class="SettingsMenuDropdownContainer" tooltip="#SFUI_ToolTip_Settings_ViewmodelPos">           
+					   <TooltipPanel class="SettingsMenuDropdownContainer" tooltip="#Panorama_ToolTip_Settings_ViewmodelPos">           
 						<Label text="#SFUI_Settings_ViewmodelPos" class="half-width"/>
 						<CSGOSettingsEnumDropDown class="PopupButton" convar="viewmodel_presetpos">
 						    <Label text="#SFUI_GameMode_custom" value="0" id ="noviewmodelpreset"/>
@@ -646,29 +646,29 @@
 						</CSGOSettingsEnumDropDown>
 					</TooltipPanel>
 
-					<CSGOSettingsSlider id="v_fov" text="#SFUI_Settings_ViewmodelFOV" displayprecision="1" max="68.0" min="54.0" convar="viewmodel_fov"/>
+					<CSGOSettingsSlider id="v_fov" text="#Panorama_Settings_ViewmodelFOV" displayprecision="1" max="68.0" min="54.0" convar="viewmodel_fov"/>
 					<Panel class="horizontal-separator"/>
 
-					<CSGOSettingsSlider id="v_offset_X" text="#SFUI_Settings_ViewmodelX" displayprecision="1" max="2.5" min="-2.0" convar="viewmodel_offset_x"/>
+					<CSGOSettingsSlider id="v_offset_X" text="#Panorama_Settings_ViewmodelX" displayprecision="1" max="2.5" min="-2.0" convar="viewmodel_offset_x"/>
 					<Panel class="horizontal-separator"/>
 
-					<CSGOSettingsSlider id="v_offset_y" text="#SFUI_Settings_ViewmodelY" displayprecision="1" max="2.0" min="-2.0" convar="viewmodel_offset_y"/>
+					<CSGOSettingsSlider id="v_offset_y" text="#Panorama_Settings_ViewmodelY" displayprecision="1" max="2.0" min="-2.0" convar="viewmodel_offset_y"/>
 					<Panel class="horizontal-separator"/>
 
-					<CSGOSettingsSlider id="v_offset_x" text="#SFUI_Settings_ViewmodelZ" max="2.0" min="-2.0" displayprecision="1" convar="viewmodel_offset_z"/>
+					<CSGOSettingsSlider id="v_offset_x" text="#Panorama_Settings_ViewmodelZ" max="2.0" min="-2.0" displayprecision="1" convar="viewmodel_offset_z"/>
 					<Panel class="horizontal-separator"/>
 
 					                      
-					<CSGOSettingsSlider id="v_recoil" text="#SFUI_Settings_ViewmodelRecoil" max="1" min="0" displayprecision="1" convar="viewmodel_recoil"/>
+					<CSGOSettingsSlider id="v_recoil" text="#Panorama_Settings_ViewmodelRecoil" max="1" min="0" displayprecision="1" convar="viewmodel_recoil"/>
 					<Panel class="horizontal-separator"/>
 
-					<CSGOSettingsSlider id="vb_low" text="#SFUI_Settings_ViewmodelBobLower" max="30" min="5" displayprecision="1" convar="cl_bob_lower_amt"/>
+					<CSGOSettingsSlider id="vb_low" text="#Panorama_Settings_ViewmodelBobLower" max="30" min="5" displayprecision="1" convar="cl_bob_lower_amt"/>
 					<Panel class="horizontal-separator"/>
 					
-					<CSGOSettingsSlider id="vb_sh" text="#SFUI_Settings_ViewmodelBobX" max="2.0" displayprecision="1" min="0.1" convar="cl_bobamt_lat"/>
+					<CSGOSettingsSlider id="vb_sh" text="#Panorama_Settings_ViewmodelBobX" max="2.0" displayprecision="1" min="0.1" convar="cl_bobamt_lat"/>
 					<Panel class="horizontal-separator"/>
 					
-					<CSGOSettingsSlider id="vb_sv" text="#SFUI_Settings_ViewmodelBobY" max="2.0" displayprecision="1" min="0.1" convar="cl_bobamt_vert"/>
+					<CSGOSettingsSlider id="vb_sv" text="#Panorama_Settings_ViewmodelBobY" max="2.0" displayprecision="1" min="0.1" convar="cl_bobamt_vert"/>
 					<Panel class="horizontal-separator"/>	   
 			</Panel>
 
