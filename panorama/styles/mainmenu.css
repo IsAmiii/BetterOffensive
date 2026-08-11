@@ -1232,3 +1232,12 @@ Button.content-navbar__tabs--small-image Image
 {
 	visibility: collapse;
 }
+
+.navbar-horizontal-separator
+{
+	horizontal-align: center;
+	width: 400%;
+	height: 1px;
+	opacity: .15;
+	background-color: white;
+}
