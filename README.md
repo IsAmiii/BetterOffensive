@@ -68,6 +68,6 @@
 
 - **IlluMinAty** - Main developer
 - **ThatOneRicsi** - For making the installer
-- **Parker** - Voting screen scrollbar and GCMM UI (used until v1.6.3)
+- **Parker** - Voting screen scrollbar
 - **Slippi** - README updates
 - **Mikko Kokko** and **GT-610** - `csgo_gc`
