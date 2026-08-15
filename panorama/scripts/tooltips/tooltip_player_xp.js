@@ -15,7 +15,7 @@ var TooltipPlayerXp = ( function()
 			currentPoints = FriendsListAPI.GetFriendXp( xuid ),
 			pointsPerLevel = MyPersonaAPI.GetXpPerLevel(),
 			currentLvl = FriendsListAPI.GetFriendLevel( xuid ),
-			isDueServiceMedal = currentLvl >= maxLevel ? true : false;
+			isDueServiceMedal = currentLvl >= maxLevel ? false : false;
 
 		$.GetContextPanel().SetDialogVariable( "xpcurrent", currentPoints );
 		$.GetContextPanel().SetDialogVariable( "xptonext", pointsPerLevel - currentPoints);
