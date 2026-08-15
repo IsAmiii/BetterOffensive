@@ -21,7 +21,7 @@
 
 ### csgo_gc
 - Added `csgo_gc` to fix the in-game inventory system.
-- The default `inventory.txt` file now comes with the **Global Offensive Badge** and **CS:GO (Panorama) Music Kit** rather than **Karambit | Fade** by default.
+- The default `inventory.txt` file now comes with the **Global Offensive Badge** and **CS:GO's Panorama Music Kit** rather than **Karambit | Fade** by default.
 - Added flo's `csgo_gc` inventory editor with the base install for easily adding skins without an external download.
 
 ### UI Changes
@@ -57,7 +57,7 @@
 
 ### Manual Install (Windows & Linux)
 1. Download [CS:GO from Steam](https://store.steampowered.com/app/4465480/CounterStrikeGlobal_Offensive/).
-2. Download the latest release for your platform from the [Releases Page](https://github.com/itsIlluMinAty/GRMod/releases).
+2. Download the latest release for your platform from the [Releases Page](https://github.com/itsIlluMinAty/BetterOffensive/releases).
 3. Navigate to the game's installation directory.
 4. Extract the contents of the downloaded archive to your game directory, replacing files when prompted.
 5. Launch the game from Steam.
@@ -68,6 +68,6 @@
 
 - **IlluMinAty** - Main developer
 - **ThatOneRicsi** - For making the installer
-- **Parker** - Voting screen scrollbar and GCMM UI (used until v1.6.3)
+- **Parker** - Voting screen scrollbar
 - **Slippi** - README updates
 - **Mikko Kokko** and **GT-610** - `csgo_gc`
