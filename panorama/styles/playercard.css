@@ -277,6 +277,44 @@
 	height: 100%;
 }
 
+.player-card-xp-getprestigebutton
+{
+	horizontal-align: left;
+	vertical-align: top;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	width: 100%;
+	height: 32px;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #3a863d ), to( #2d682f ) );
+	box-shadow: shadowOffset;
+
+	transition-property: background-color;
+	transition-duration: .25s;
+	transition-timing-function: ease-in-out;
+}
+
+.player-card-xp-getprestigebutton:hover
+{
+	background-color: positiveColor;
+
+	transition-property: background-color;
+	transition-duration: .25s;
+	transition-timing-function: ease-in-out;
+}
+
+#GetPrestigeButtonClickable
+{
+	margin: 0px;
+	vertical-align: center;
+}
+
+.player-card-xp-getprestigebutton__icon
+{
+	vertical-align: center;
+	transform: rotatez( 180deg );
+	margin-left: 38px;
+}
+
 .player-card-nonprime__lock
 {
 	horizontal-align: center;

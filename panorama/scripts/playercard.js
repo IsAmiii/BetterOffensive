@@ -164,8 +164,14 @@ var playerCard = ( function (){
 		                                                                               
 		                                                               
 		                                                                                 
-
+		
+		
+		                          
 		var elRank = $.GetContextPanel().FindChildInLayoutFile( 'JsPlayerXp' );
+		elRank.AddClass( 'hidden' );
+		return;
+
+
 		
 		if ( !MyPersonaAPI.IsInventoryValid() || !_m_currentLvl || ( !_HasXpProgressToFreeze() && !_IsPlayerPrime() ))
 		{
@@ -222,6 +228,16 @@ var playerCard = ( function (){
 		elRankIcon.SetImage( 'file://{images}/icons/xp/level' + _m_currentLvl + '.png' );
 		
 		elRank.RemoveClass( 'hidden' );
+
+		var bPrestigeAvailable = _m_isSelf && ( _m_currentLvl >= InventoryAPI.GetMaxLevel() );
+		$.GetContextPanel().FindChildInLayoutFile( 'GetPrestigeButton' ).SetHasClass( 'hidden', !bPrestigeAvailable );
+		if ( bPrestigeAvailable )
+		{
+			$.GetContextPanel().FindChildInLayoutFile( 'GetPrestigeButtonClickable' ).SetPanelEvent(
+				'onactivate',
+				_OnActivateGetPrestigeButtonClickable
+			);
+		}
 	};
 
 	var _OnActivateGetPrestigeButtonClickable = function()
@@ -237,7 +253,11 @@ var playerCard = ( function (){
 
 	var _SetAllSkillGroups = function()
 	{
+		                            
 		var elSkillGroupContainer = $.GetContextPanel().FindChildInLayoutFile( 'JsPlayerCardSkillGroupContainer' );
+		elSkillGroupContainer.AddClass( 'hidden' );
+		return;
+		
 		
 		if ( !_HasXpProgressToFreeze() && !_IsPlayerPrime() )
 		{
@@ -465,7 +485,12 @@ var playerCard = ( function (){
 
 	var _SetPrimeUpsell = function()
 	{
+		                             
 		var elUpsellPanel = $.GetContextPanel().FindChildInLayoutFile( 'JsPlayerCardPrimeUpsell' );
+		elUpsellPanel.AddClass( 'hidden', true );
+		return;
+
+
 		elUpsellPanel.SetHasClass( 
 			'hidden', 
 			!MyPersonaAPI.IsInventoryValid() || _IsPlayerPrime() || !_m_isSelf
@@ -778,7 +803,7 @@ var playerCard = ( function (){
 		_SetPlayerBackground();
 		_SetFlairItems();
 		_SetPrimeUpsell();
-		_SetRank()
+		_SetRank();
 	};
 
 	var _ShowHideAdditionalRanks = function()
