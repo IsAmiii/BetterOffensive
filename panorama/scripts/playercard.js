@@ -222,16 +222,6 @@ var playerCard = ( function (){
 		elRankIcon.SetImage( 'file://{images}/icons/xp/level' + _m_currentLvl + '.png' );
 		
 		elRank.RemoveClass( 'hidden' );
-
-		var bPrestigeAvailable = _m_isSelf && ( _m_currentLvl >= InventoryAPI.GetMaxLevel() );
-		$.GetContextPanel().FindChildInLayoutFile( 'GetPrestigeButton' ).SetHasClass( 'hidden', !bPrestigeAvailable );
-		if ( bPrestigeAvailable )
-		{
-			$.GetContextPanel().FindChildInLayoutFile( 'GetPrestigeButtonClickable' ).SetPanelEvent(
-				'onactivate',
-				_OnActivateGetPrestigeButtonClickable
-			);
-		}
 	};
 
 	var _OnActivateGetPrestigeButtonClickable = function()

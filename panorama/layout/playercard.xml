@@ -35,12 +35,6 @@
 		<Panel id="JsPlayerCardBg" class="player-card-row__bg-image" blurrects="JsPlayerXp"/>
 		<Panel id="JsPlayerCardSectoins" class="player-card__sections">
 
-			<Panel id="GetPrestigeButton" class="player-card-xp-getprestigebutton hidden">
-				<Image class="player-card-xp-getprestigebutton__icon" textureheight='24' texturewidth='-1' src="file://{images}/icons/ui/bomb_arrow_segment.svg"/>
-				<TextButton id="GetPrestigeButtonClickable" html="true"
-							class=""
-							text="#SFUI_Redeem_Service_Medal"/>
-			</Panel>
 			<Panel class="full-width">
 				<Panel id="JsPlayerCardTop" class="player-card-row">
 
