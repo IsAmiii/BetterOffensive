@@ -69,5 +69,5 @@
 - **IlluMinAty** - Main developer
 - **ThatOneRicsi** - For making the installer
 - **Parker** - Voting screen scrollbar
-- **Slippi** - README updates
+- **Slippi** - Panorama Backgrounds and README updates
 - **Mikko Kokko** and **GT-610** - `csgo_gc`
