@@ -168,7 +168,6 @@ var playerCard = ( function (){
 		
 		                          
 		var elRank = $.GetContextPanel().FindChildInLayoutFile( 'JsPlayerXp' );
-		elRank.AddClass( 'hidden' );
 		return;
 
 
@@ -255,7 +254,6 @@ var playerCard = ( function (){
 	{
 		                            
 		var elSkillGroupContainer = $.GetContextPanel().FindChildInLayoutFile( 'JsPlayerCardSkillGroupContainer' );
-		elSkillGroupContainer.AddClass( 'hidden' );
 		return;
 		
 		
@@ -527,19 +525,6 @@ var playerCard = ( function (){
 			var elCommend = $.GetContextPanel().FindChildInLayoutFile( 'JsPlayer' + catagories[ i ].key );
 			
 			                                            
-			if ( !catagories[ i ].value || catagories[ i ].value === 0 )
-			{
-				elCommend.AddClass( 'hidden' );
-				countHiddenCommends++;
-			}
-			else
-			{
-				if ( elCommendsBlock.BHasClass( 'hidden' ) )
-					elCommendsBlock.RemoveClass( 'hidden' );
-				
-				elCommend.RemoveClass( 'hidden' );
-				elCommend.FindChild( 'JsCommendLabel' ).text = catagories[ i ].value;
-			}
 		}
 
 		                                                        

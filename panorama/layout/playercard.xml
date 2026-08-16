@@ -35,12 +35,6 @@
 		<Panel id="JsPlayerCardBg" class="player-card-row__bg-image" blurrects="JsPlayerXp"/>
 		<Panel id="JsPlayerCardSectoins" class="player-card__sections">
 
-			<Panel id="GetPrestigeButton" class="player-card-xp-getprestigebutton hidden">
-				<Image class="player-card-xp-getprestigebutton__icon" textureheight='24' texturewidth='-1' src="file://{images}/icons/ui/bomb_arrow_segment.svg"/>
-				<TextButton id="GetPrestigeButtonClickable" html="true"
-							class=""
-							text="#SFUI_Redeem_Service_Medal"/>
-			</Panel>
 			<Panel class="full-width">
 				<Panel id="JsPlayerCardTop" class="player-card-row">
 
@@ -91,38 +85,6 @@
 				</Panel>
 			</Panel>
 
-			<Panel id="JsPlayerXp" class="player-card-xp player-card-border"
-					onmouseover="playerCard.ShowXpTooltip();"
-					onmouseout="playerCard.HideXpTooltip();" >
-				<Panel class="player-card-xp__icon-container">
-					<Image id="JsPlayerXpIcon"
-							style="tooltip-position: bottom;"
-							class="player-card-xp__icon" src=""/>
-					<Image class="player-card-nonprime__lock" textureheight='12' texturewidth='-1' src="file://{images}/icons/ui/locked.svg"/>
-
-				</Panel>
-				<Panel class="player-card-xp__name-bar">
-					<Label id="JsPlayerRankName"
-							class="player-card__text-subtitle"
-							text="#XP_RankName_Display" />
-					<Panel class="player-card-xpbar">
-						<Panel class="player-card-xpbar__bar"/>
-						<Panel id="JsPlayerXpBarInner" class="player-card-xpbar__bar--inner"/>
-					</Panel>
-				</Panel>
-			</Panel>
-
-			<Panel id="JsPlayerCardSkillGroupContainer" class="player-card-skillgroup-container">
-				<ToggleButton id="SkillGroupExpand"
-						class="player-card-skillgroup-expand"
-						onactivate="playerCard.ShowHideAdditionalRanks();">
-						<Image src="file://{images}/icons/ui/expand.svg"/>
-				</ToggleButton>
-				<Panel id="SkillGroupContainer" class="top-bottom-flow full-width" >
-					                                
-				</Panel>
-			</Panel>
-
 			<Panel id="JsPlayerCommendations" class="player-card-commendations-container player-card-border hidden">
 				<Panel class="player-card-commendations">
 					<Panel id="JsPlayerPrime"
@@ -131,27 +93,6 @@
 							onmouseout="UiToolkitAPI.HideTextTooltip();" > 
 						<Image id="JsPlayerPrimeImg" style="tooltip-position: bottom;" src="file://{images}/icons/ui/prime.svg"/>
 						<Label id="JsCommendLabel" text=" "/>
-					</Panel>
-					<Panel	id="JsPlayerfriendly"
-							class="player-card-commendations-icon"
-							onmouseover="UiToolkitAPI.ShowTextTooltip( 'JsPlayerfriendlyImg', '#tooltip_friendly' );"
-							onmouseout="UiToolkitAPI.HideTextTooltip();" >
-						<Image id="JsPlayerfriendlyImg" style="tooltip-position: bottom;" src="file://{images}/icons/ui/smile.svg"/>
-						<Label id="JsCommendLabel" text=""/>
-					</Panel>
-					<Panel 	id="JsPlayerteaching"
-							class="player-card-commendations-icon"
-							onmouseover="UiToolkitAPI.ShowTextTooltip( 'JsPlayerteachingImg', '#tooltip_teaching' );"
-							onmouseout="UiToolkitAPI.HideTextTooltip();" >
-						<Image id="JsPlayerteachingImg" style="tooltip-position: bottom;" src="file://{images}/icons/ui/teacher.svg"/>
-						<Label id="JsCommendLabel" text=""/>
-					</Panel>
-					<Panel id="JsPlayerleader"
-							class="player-card-commendations-icon"
-							onmouseover="UiToolkitAPI.ShowTextTooltip( 'JsPlayerleaderImg', '#tooltip_leader' );"
-							onmouseout="UiToolkitAPI.HideTextTooltip();" > 
-						<Image id="JsPlayerleaderImg" style="tooltip-position: bottom;" src="file://{images}/icons/ui/leader.svg"/>
-						<Label id="JsCommendLabel" text=""/>
 					</Panel>
 					                             
 							                                      
