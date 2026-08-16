@@ -173,27 +173,6 @@ var ItemContextEntires = ( function (){
 			}
 		},
 		{
-			name: 'view_tournament_journal',
-			populateFilter: ['inspect', 'loadout'],
-			style: function (id){
-				return false;
-			},
-			AvailableForItem: function ( id ) {
-				return ( ItemInfo.ItemDefinitionNameSubstrMatch(id, 'tournament_journal_') &&
-					                                                                          
-					g_ActiveTournamentInfo.eventid == InventoryAPI.GetItemAttributeValue( id, "tournament event id" ) );
-			},
-			OnSelected:  function ( id ) {
-				UiToolkitAPI.ShowCustomLayoutPopupParameters(
-					'',
-					'file://{resources}/layout/popups/popup_tournament_journal.xml',
-					'journalid=' + id
-				);
-
-				$.DispatchEvent( 'ContextMenuEvent', '' );
-			}
-		},
-		{
 			name: 'openloadout',
 			AvailableForItem: function ( id ) {
 				var slotsub = ItemInfo.GetSlotSubPosition(id);
