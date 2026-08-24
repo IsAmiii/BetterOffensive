@@ -127,30 +127,6 @@
 					<Label id="JsFriendsTabAlertText" class="navbar-btn__notification-text shadow" text=""/>
 				</Panel>
 			</Panel>
-			<Panel id="JsFriendsTab-lobbies" class="friendslist-navbar-btn" style="tooltip-position: bottom;">
-				<RadioButton id="JsFriendsTab" 
-							group="FriendsNavBar"
-							onactivate="friendsList.ShowSelectedTab( 3 );"
-							onmouseover="UiToolkitAPI.ShowTextTooltip( 'JsFriendsTab-lobbies', '#FriendsList_nodata_advertising_title' );"
-							onmouseout="UiToolkitAPI.HideTextTooltip();">
-					<Image src="file://{images}/icons/ui/broadcast.svg"/>
-				</RadioButton>
-				<Panel id="JsFriendsTabAlert" class="navbar-btn__notification">
-					<Label id="JsFriendsTabAlertText" class="navbar-btn__notification-text" text=""/>
-				</Panel>
-			</Panel>
-			<Panel id="JsFriendsTab-recents" class="friendslist-navbar-btn" style="tooltip-position: bottom;">
-				<RadioButton id="JsFriendsTab" 
-							group="FriendsNavBar" 
-							onactivate="friendsList.ShowSelectedTab( 2 );"
-							onmouseover="UiToolkitAPI.ShowTextTooltip( 'JsFriendsTab-recents', '#FriendsList_nodata_recents_title' );"
-							onmouseout="UiToolkitAPI.HideTextTooltip();">
-					<Image src="file://{images}/icons/ui/recent.svg"/>
-				</RadioButton>
-				<Panel id="JsFriendsTabAlert" class="navbar-btn__notification">
-					<Label id="JsFriendsTabAlertText" class="navbar-btn__notification-text" text=""/>
-				</Panel>
-			</Panel>
 			<Panel id="JsFriendsTab-requests" class="friendslist-navbar-btn" style="tooltip-position: bottom;">
 				<RadioButton id="JsFriendsTab" 
 							group="FriendsNavBar"

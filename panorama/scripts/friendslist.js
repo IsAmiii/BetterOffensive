@@ -36,29 +36,6 @@ var friendsList = (function() {
 				tileXmlToUse: 'friendtile',
 				nodatString: '#FriendsList_nodata_requests'
 			},
-
-			{
-				elContent: $( '#JsFriendsList-recents' ),
-				elList: $( '#JsFriendsList-recents' ).FindChild( 'JsFriendsList-List' ),
-				elTabRadioBtn: $( '#JsFriendsTab-recents' ),
-				getCount: _GetRecentsCount,
-				getAlertsCount: _GetRecentsCount,
-				getXuidByIndex: _GetRecentXuidByIndex,
-				tileXmlToUse: 'friendtile',
-				nodatString: '#FriendsList_nodata_recents',
-				type: 'recent'
-			},
-
-			{
-				elContent: $( '#JsFriendsList-lobbies' ),
-				elList: $( '#JsFriendsList-lobbies' ).FindChild( 'JsFriendsList-List' ),
-				elTabRadioBtn: $( '#JsFriendsTab-lobbies' ),
-				getCount: _GetLobbiesCount,
-				getAlertsCount: _GetLobbiesCount,
-				getXuidByIndex: _GetLobbyXuidByIndex,
-				tileXmlToUse: 'friend_advertise_tile',
-				nodatString: '#FriendsList_nodata_advertising'
-			}
 		];
 
 		_UpdateAllTabsAlertCounts();

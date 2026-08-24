@@ -945,7 +945,7 @@ var ItemContextEntires = ( function (){
 			  	                      
 			    
 			AvailableForItem: function ( id ) {
-				return InventoryAPI.IsMarketable( id );
+				return false;
 			},
 			OnSelected: function ( id ) {
 				$.DispatchEvent( 'PlaySoundEffect', 'inventory_inspect_sellOnMarket', 'MOUSE' );
@@ -959,7 +959,7 @@ var ItemContextEntires = ( function (){
 				return !InventoryAPI.IsMarketable( id ) ? 'TopSeparator' : '';
 			},
 			AvailableForItem: function ( id ) {
-				return InventoryAPI.IsDeletable( id );
+				return true;
 			},
 			OnSelected: function ( id ) {
 				$.DispatchEvent( 'ContextMenuEvent', '' );

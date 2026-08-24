@@ -162,7 +162,7 @@ var contextmenuPlayerCard = ( function (){
 			name: 'trade',
 			icon: 'trade',
 			AvailableForItem: function ( id ) {
-				return FriendsListAPI.GetFriendRelationship( id ) === "friend";
+				return false;
 
 			},
 			OnSelected:  function ( id ) {

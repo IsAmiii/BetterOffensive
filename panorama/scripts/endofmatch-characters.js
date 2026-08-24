@@ -413,7 +413,6 @@ var EOM_Characters = ( function()
 		{
 			'numCharacters': arrPlayerList.length,
 			'characterShowDelay': DELAY_PER_PLAYER,
-			'displayCommendButton': _ShouldDisplayCommendsInMode( mode ),
 		}
 
 		CharacterLineUp.Init( elCLU, oSettings );
